@@ -20,7 +20,7 @@ def check_win(board, player):
     if board[0][0] == player and board[1][1] == player and board[2][2] == player:
         return True
     if board[0][2] == player and board[1][1] == player and board[2][0] == player:
-        return True
+        return False
 
     return False
 
